@@ -1,53 +1,80 @@
-# ReactJS-Spring-Boot-CRUD-Full-Stack-App - Course on YouTube
+ ## EmployeeX - Full Stack Employee Management System
 
-#### ReactJS + Spring Boot CRUD Full Stack App - 1 - Project Overview
-=> https://youtu.be/n43h1eJ2EUE
+A professional, beginner-friendly full-stack CRUD web application built with Spring Boot (Maven) and ReactJS It allows users to Create, Read, Update, and Delete (CRUD) employee records. This project showcases a real-world implementation of REST APIs, form handling, database persistence, and a modern front-end interface.
 
-#### ReactJS + Spring Boot CRUD Full Stack App - 2 - Project Architecture and Development Process
-=> https://youtu.be/iK__liBIXWk
-#### ReactJS + Spring Boot CRUD Full Stack App - 3 - Create Spring Boot Project and Configure MySQL
-=> https://youtu.be/k5KnAhkRzh4
-#### ReactJS + Spring Boot CRUD Full Stack App - 4 - Creating JPA Entity + Repository
-=> https://youtu.be/FZwLlaMmers
-#### ReactJS + Spring Boot CRUD Full Stack App - 5 - Creating List Employee REST API
-=> https://youtu.be/L57OlxU0fEE
-#### ReactJS + Spring Boot CRUD Full Stack App - 6 - Creating React App
-=> https://youtu.be/tUXiPfNKUWE
-#### ReactJS + Spring Boot CRUD Full Stack App - 7 - Add Bootstrap 4 in React App
-=> https://youtu.be/ArxBR9C1oNA
-#### ReactJS + Spring Boot CRUD Full Stack App - 8 - Creating React List Employee Component
-=> https://youtu.be/Tpt9t5IV7Vw
-#### ReactJS + Spring Boot CRUD Full Stack App - 9 - Connecting React with List Employee REST API
-=> https://youtu.be/zXE7dCidXhc
-#### ReactJS + Spring Boot CRUD Full Stack App - 10 - Add Header and Footer to React App
-=> https://youtu.be/LOcy9uFzBBU
-#### ReactJS + Spring Boot CRUD Full Stack App - 11 - Configure Routing
-=> https://youtu.be/z2QAbWy1A40
-#### ReactJS + Spring Boot CRUD Full Stack App - 12 - Creating Add Employee REST API
-=> https://youtu.be/1y3pOPNrGms
-#### ReactJS + Spring Boot CRUD Full Stack App - 13 - Creating React Add Employee Component
-=> https://youtu.be/E_7uVf0RCl4
-#### ReactJS + Spring Boot CRUD Full Stack App - 14 - React Add Employee Form Handling
-=> https://youtu.be/S5AFJIfRxQU
-#### ReactJS + Spring Boot CRUD Full Stack App - 15 - Connecting React with Add Employee REST API
-=> https://youtu.be/ieMhlyjPjWo
-#### ReactJS + Spring Boot CRUD Full Stack App - 16 - Creating Get Employee By Id REST API
-=> https://youtu.be/L5SYbfkOTQA
-#### ReactJS + Spring Boot CRUD Full Stack App - 17 - Creating Update Employee REST API
-=> https://youtu.be/voJAjtioNN8
-#### ReactJS + Spring Boot CRUD Full Stack App - 18 - Creating React Update Employee
-=> https://youtu.be/GrIG4-lnLkQ
-#### ReactJS + Spring Boot CRUD Full Stack App - 19 - Connecting React with Update Employee REST API
-=> https://youtu.be/uPCWBOrU6Vs
-#### ReactJS + Spring Boot CRUD Full Stack App - 20 - Add & Update Employee with Single React Component 
-=> https://youtu.be/ksvDBGF7JRE
-#### ReactJS + Spring Boot CRUD Full Stack App - 21 - Creating Delete Employee REST API 
-=> https://youtu.be/dzgixz4X1KA
-#### ReactJS + Spring Boot CRUD Full Stack App - 22 - Connecting React with Delete Employee REST API
-=> https://youtu.be/L6wM7x0fqZs
-#### ReactJS + Spring Boot CRUD Full Stack App - 23 - Creating React View Employee Component
-=> https://youtu.be/XRWnM51Cd7o
-#### ReactJS + Spring Boot CRUD Full Stack App - 24 - Design and Show Data on View Employee Page
-=> https://youtu.be/XRWnM51Cd7o
-#### ReactJS + Spring Boot CRUD Full Stack App - 25 - It's Demo Time and Source Code on GitHub
-=> https://youtu.be/FX5HE_gnOTI
+
+## 🚀 Tech Stack
+### 🖥 Backend (Spring Boot)
+- Java 
+- Spring Boot
+- Spring MVC
+- Spring Data JPA
+- Hibernate
+- MySQL 
+- Maven
+
+### 🌐 Frontend (ReactJS)
+- React 18+
+- Axios (HTTP client)
+- Bootstrap (Styling)
+- React Router DOM
+
+
+## 🗂️ Project Structure
+📁 EmployeeX-FullStack-CRUD-App/
+├── 📁 springboot-backend/ # Maven-based Spring Boot App
+│ ├── src/main/java
+│ ├── src/main/resources
+│ └── pom.xml
+│
+└── 📁 react-frontend/ # React Frontend App
+├── public/
+├── src/
+└── package.json
+
+## 🔧 Features
+-  Add New Employee
+-  View Employee List
+-  Update Employee Details
+-  Delete Employee Record
+-  Full RESTful API Integration
+-  Maven-based structure (importable into Eclipse/IntelliJ)
+-  Clean and responsive UI with Bootstrap
+  
+##  API Endpoints
+Method	Endpoint	Description
+GET	/api/v1/employees	Get all employees
+POST	/api/v1/employees	Add new employee
+GET	/api/v1/employees/{id}	Get employee by ID
+PUT	/api/v1/employees/{id}	Update employee
+DELETE	/api/v1/employees/{id}	Delete employee
+
+## Learning Outcomes
+1. Mastered full-stack integration using REST APIs
+
+2. Implemented CRUD operations using JPA and Hibernate
+
+3. Built a responsive React interface with dynamic routing
+
+4. Managed state and API calls using Axios and React hooks
+
+5. Understood MVC, layered architecture, and API design
+
+
+## Future Enhancements
+🔐 User authentication (Spring Security + JWT)
+
+📁 File upload (e.g., resume, profile photo)
+
+🔍 Search & pagination
+
+🧾 PDF export of employee list
+
+🌐 Deployment on cloud platforms (Heroku, Netlify)
+
+
+
+📬 Contact
+Developer: Prerana Bubbly
+📧 Preranababali@gmail.com]
+
