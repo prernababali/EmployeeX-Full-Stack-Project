@@ -22,14 +22,24 @@ A professional, beginner-friendly full-stack CRUD web application built with Spr
 
 ## 🗂️ Project Structure
 📁 EmployeeX-FullStack-CRUD-App/
+
 ├── 📁 springboot-backend/ # Maven-based Spring Boot App
+
 │ ├── src/main/java
+
 │ ├── src/main/resources
+
 │ └── pom.xml
 │
+
+
+
 └── 📁 react-frontend/ # React Frontend App
+
 ├── public/
+
 ├── src/
+
 └── package.json
 
 ## 🔧 Features
